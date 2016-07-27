@@ -1,0 +1,30 @@
+{
+  "name": "react-i-cli",
+  "version": "1.0.0",
+  "description": "Transform svg to react-i",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  }, 
+  "bin" : {
+    "react-i" : "lib/index.js"
+  },
+  "dependencies": {
+    "cheerio": "^0.20.0",
+    "svgo": "^0.6.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leecade/react-i-cli.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/leecade/react-i-cli/issues"
+  },
+  "homepage": "https://github.com/leecade/react-i-cli#readme"
+}
